@@ -1,27 +1,101 @@
+:root {
+  --main-color: #2e2f42;
+  --second-color: #434455;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  list-style: none;
+}
 
-
-
+.link {
+  text-decoration: none;
+}
+/*=================================================MAIN PAGE=============================================*/
 
 /* ==================HEADER================*/
 .header {
 }
 .header-navigation {
 }
-.header-logo {
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-second {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
 }
 .header-list {
 }
 .header-item {
 }
 .header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+.header-link-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+
+/* ==================FOOTER================*/
+.footer {
+  background: var(--main-color);
+}
+.footer-logo-second {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-link {
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 /*-------------------HERO-------------*/
 .hero {
+  background: var(--main-color);
 }
 .hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
 }
 
 /*-------------------BASIS-------------*/
@@ -34,14 +108,28 @@
 .basis-item {
 }
 .basis-mini-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .basis-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 
 /*-------------------WORK-------------*/
 .work {
 }
 .work-title {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
 }
 .work-list {
 }
@@ -52,8 +140,14 @@
 
 /*-------------------TEAM-------------*/
 .team {
+  background: #f4f4fd;
 }
 .team-main-title {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
 }
 .team-list {
 }
@@ -62,15 +156,62 @@
 .team-img {
 }
 .team-second-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 
+/*=================================================PORTFOLIO=============================================*/
+/*---------------------Control Panel------------*/
+.control-panel {
+}
+.control-panel-title {
+}
+.control-panel-list {
+}
+.control-panel-item {
+}
+.control-panel-buttom {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.control-panel-buttom:hover,
+.control-panel-buttom:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
 
-/* ==================FOOTER================*/
-.footer {
+/*----------------------Gallery------------------*/
+.gallery {
 }
-.footer-link {
+.gallery-list {
 }
-.footer-text {
+.gallery-item {
+}
+.gallery-img {
+}
+.gallery-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
 }
