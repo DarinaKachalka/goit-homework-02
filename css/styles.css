@@ -90,6 +90,7 @@ body {
   color: #ffffff;
 }
 .hero-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -180,6 +181,7 @@ body {
 .control-panel-item {
 }
 .control-panel-buttom {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
