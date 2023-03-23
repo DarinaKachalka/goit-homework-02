@@ -170,6 +170,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: var(--main-color);
+  background-color: #FFFFFF
 }
 .team-list {
   background-color: #FFFFFF
