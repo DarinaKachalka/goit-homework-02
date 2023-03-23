@@ -4,6 +4,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -47,8 +49,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--second-color);
+  color: var(--main-color);
 }
+.header-link:hover,
+.header-link:focus{
+  color: #404bbf
+}
+
+.adress{
+  font-style: normal
+}
+
 .header-link-adress {
   font-style: normal;
   font-weight: 400;
@@ -56,6 +67,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
+}
+.header-link-adress:hover,
+.header-link-adress:focus{
+  color: #404bbf
 }
 
 /* ==================FOOTER================*/
@@ -87,6 +102,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center
   color: #ffffff;
 }
 .hero-button {
@@ -97,7 +113,10 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
+  cursor: pointer
 }
+.hero-button:hover,
+.hero-button:focus{background-color: #404BBF}
 
 /*-------------------BASIS-------------*/
 .basis {
@@ -127,9 +146,10 @@ body {
 }
 .work-title {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center
   color: var(--main-color);
 }
 .work-list {
@@ -141,13 +161,14 @@ body {
 
 /*-------------------TEAM-------------*/
 .team {
-  background: #f4f4fd;
+background-color: #FFFFFF;
 }
 .team-main-title {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center
   color: var(--main-color);
 }
 .team-list {
@@ -187,6 +208,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: #F4F4FD
   cursor: pointer;
 }
 .control-panel-buttom:hover,
