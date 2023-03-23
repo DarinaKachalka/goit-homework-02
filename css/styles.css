@@ -1,11 +1,18 @@
 :root {
-  --main-color: #2e2f42;
-  --second-color: #434455;
+  --main-color-text: #2e2f42;
+  --second-color-text: #434455;
+  --main-color-backgrond-dark:#2e2f42;
+  --second-color-background-dark:#434455;
+
+  --main-color-background-light:#FFFFFF;
+  --second-color-background-light:#F4F4FD;
+  --color-focus-hover:#404BBF;
+  --color-logo-button:#4D5AE5;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #FFFFFF;
+  color:var(--main-color-text);
+  background-color: var(--main-color-background-light);
 }
 .list {
   list-style: none;
@@ -28,32 +35,25 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-logo-button);
 }
 .header-logo-second {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-color);
+  color: var(--main-color-text);
 }
 .header-list {
 }
 .header-item {
 }
 .header-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: var(--main-color-text);
 }
 .header-link:hover,
 .header-link:focus{
-  color: #404bbf;
+  color: var(--color-focus-hover);
 }
 
 .adress{
@@ -61,21 +61,20 @@ body {
 }
 
 .header-link-adress {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--second-color);
+  color: var(--second-color-text);
 }
 .header-link-adress:hover,
 .header-link-adress:focus{
-  color: #404bbf
+  color:var(--color-focus-hover);
 }
 
 /* ==================FOOTER================*/
 .footer {
-  background: var(--main-color);
+  background: var(--main-color-backgrond-dark);
 }
 .footer-logo-second {
   font-weight: 800;
@@ -83,7 +82,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color:var(--second-color-background-light);
 }
 .footer-link {
 }
@@ -91,19 +90,19 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--second-color-background-light);
 }
 
 /*-------------------HERO-------------*/
 .hero {
-  background: var(--main-color);
+  background: var(--main-color-text);
 }
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: var(--main-color-background-light);
 }
 .hero-button {
   font-family: inherit;
@@ -111,12 +110,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
+  color:var(--main-color-background-light);
+  background:var(--color-logo-button);
   cursor: pointer;
 }
 .hero-button:hover,
-.hero-button:focus{background-color: #404BBF;}
+.hero-button:focus{background-color:var(--color-focus-hover);}
 
 /*-------------------BASIS-------------*/
 .basis {
@@ -132,13 +131,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: var(--main-color-text);
 }
 .basis-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--second-color);
+  color: var(--second-color-text);
 }
 
 /*-------------------WORK-------------*/
@@ -150,7 +149,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: var(--main-color);
+  color: var(--main-color-text);
 }
 .work-list {
 }
@@ -161,7 +160,7 @@ body {
 
 /*-------------------TEAM-------------*/
 .team {
-  background-color: #F4F4FD
+  background-color:var(--second-color-background-light);
 }
 .team-main-title {
   font-size: 36px;
@@ -169,32 +168,32 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: var(--main-color);
-  background-color: #FFFFFF
+  color: var(--main-color-text);
+  background-color: var(--main-color-background-light);
 }
 .team-list {
-  background-color: #FFFFFF
+  background-color:var(--main-color-background-light);
 }
 .team-item {
-  background-color: #FFFFFF
+  background-color:var(--main-color-background-light);
 }
 .team-img {
-  background-color: #FFFFFF
+  background-color:var(--main-color-background-light);
 }
 .team-second-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-color);
-  background-color: #FFFFFF
+  color: var(--main-color-text);
+  background-color:var(--main-color-bacground-light);
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  background-color: #FFFFFF
+  color: var(--second-color-text);
+  background-color:var(--main-color-background-light);
 }
 
 /*=================================================PORTFOLIO=============================================*/
@@ -213,14 +212,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #F4F4FD;;
-  cursor: pointer;
+  color:var(--color-logo-button);
+  background: var(--second-color-background-light);
+  cursor:pointer;
 }
 .control-panel-buttom:hover,
 .control-panel-buttom:focus {
-  background: #404bbf;
-  color: #ffffff;
+  background:var(--color-focus-hover);
+  color:var(--main-color-background-light);
 }
 
 /*----------------------Gallery------------------*/
@@ -237,11 +236,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: var(--main-color-text);
 }
 .gallery-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--second-color);
+  color: var(--second-color-text);
 }
