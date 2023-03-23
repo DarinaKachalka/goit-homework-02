@@ -4,8 +4,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455
-  background-color: #ffffff;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 .list {
   list-style: none;
@@ -53,11 +53,11 @@ body {
 }
 .header-link:hover,
 .header-link:focus{
-  color: #404bbf
+  color: #404bbf;
 }
 
 .adress{
-  font-style: normal
+  font-style: normal;
 }
 
 .header-link-adress {
@@ -102,7 +102,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center
+  text-align: center;
   color: #ffffff;
 }
 .hero-button {
@@ -113,10 +113,10 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
-  cursor: pointer
+  cursor: pointer;
 }
 .hero-button:hover,
-.hero-button:focus{background-color: #404BBF}
+.hero-button:focus{background-color: #404BBF;}
 
 /*-------------------BASIS-------------*/
 .basis {
@@ -149,7 +149,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center
+  text-align: center;
   color: var(--main-color);
 }
 .work-list {
@@ -168,7 +168,7 @@ background-color: #FFFFFF;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center
+  text-align: center;
   color: var(--main-color);
 }
 .team-list {
