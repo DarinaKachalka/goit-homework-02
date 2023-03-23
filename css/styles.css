@@ -208,7 +208,7 @@ background-color: #FFFFFF;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background-color: #F4F4FD
+  background: #F4F4FD;;
   cursor: pointer;
 }
 .control-panel-buttom:hover,
