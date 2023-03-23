@@ -11,7 +11,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color:var(--second-color-text);
+  color:var(--second-color-background-dark);
   background-color: var(--main-color-background-light);
 }
 .list {
