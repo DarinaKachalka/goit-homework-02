@@ -161,7 +161,7 @@ body {
 
 /*-------------------TEAM-------------*/
 .team {
-background-color: #FFFFFF;
+  background-color: #F4F4FD
 }
 .team-main-title {
   font-size: 36px;
@@ -172,6 +172,7 @@ background-color: #FFFFFF;
   color: var(--main-color);
 }
 .team-list {
+  background-color: #FFFFFF
 }
 .team-item {
 }
