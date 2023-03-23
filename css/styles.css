@@ -161,7 +161,7 @@ body {
 
 /*-------------------TEAM-------------*/
 .team {
-background-color: #FFFFFF;
+  background-color: #F4F4FD
 }
 .team-main-title {
   font-size: 36px;
@@ -184,12 +184,14 @@ background-color: #FFFFFF;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  background-color: #FFFFFF
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  background-color: #FFFFFF
 }
 
 /*=================================================PORTFOLIO=============================================*/
